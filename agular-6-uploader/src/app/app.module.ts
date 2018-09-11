@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {FileSelectDirective} from 'ng2-file-upload';
+import {ProgressbarModule} from 'ngx-bootstrap';
 
 @NgModule({
     declarations: [
@@ -10,7 +11,8 @@ import {FileSelectDirective} from 'ng2-file-upload';
         FileSelectDirective
     ],
     imports: [
-        BrowserModule
+        BrowserModule,
+        ProgressbarModule.forRoot()
     ],
     providers: [],
     bootstrap: [AppComponent]
