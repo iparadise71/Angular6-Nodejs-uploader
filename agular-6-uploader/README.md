@@ -10,3 +10,6 @@
        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
        "styles.css"
     ],
+
+
+ng serve --host=192.168.0.101 --disable-host-check

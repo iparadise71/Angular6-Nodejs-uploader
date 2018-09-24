@@ -21,6 +21,10 @@
                     <label for="single">single</label>
                     <input type="file" class="form-control" name="single" ng2FileSelect [uploader]="uploader" />
                 </div>
+                <div class="form-group">
+                    <h3>Select files</h3>
+                    <input type="file" #fileInput multiple (change)="addToQueue()" />
+                </div>
             </form>
         </div>
         <div class="col-md-8">
@@ -51,20 +55,20 @@
                         <span *ngIf="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
                         <span *ngIf="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
                     </td>
-                    <td nowrap>
-                        <button type="button" class="btn btn-success btn-xs"
-                                (click)="item.upload()" [disabled]="item.isReady || item.isUploading || item.isSuccess">
-                            <span class="glyphicon glyphicon-upload"></span> Upload
-                        </button>
-                        <button type="button" class="btn btn-warning btn-xs"
-                                (click)="item.cancel()" [disabled]="!item.isUploading">
-                            <span class="glyphicon glyphicon-ban-circle"></span> Cancel
-                        </button>
-                        <button type="button" class="btn btn-danger btn-xs"
-                                (click)="item.remove()">
-                            <span class="glyphicon glyphicon-trash"></span> Remove
-                        </button>
-                    </td>
+                        <td nowrap>
+                            <button type="button" class="btn btn-success btn-xs"
+                                    (click)="item.upload()" [disabled]="item.isReady || item.isUploading || item.isSuccess">
+                                <span class="glyphicon glyphicon-upload"></span> Subir
+                            </button>
+                            <button type="button" class="btn btn-warning btn-xs"
+                                    (click)="item.cancel()" [disabled]="!item.isUploading">
+                                <span class="glyphicon glyphicon-ban-circle"></span> Cancelar
+                            </button>
+                            <button type="button" class="btn btn-danger btn-xs"
+                                    (click)="item.remove()">
+                                <span class="glyphicon glyphicon-trash"></span> Elimi
+                            </button>
+                        </td>
                 </tr>
                 </tbody>
             </table>
@@ -90,5 +94,44 @@
                 </button>
             </div>
         </div>
+    </div>
+</div>
+<div>
+    <input type="file" (change)="fileChangeEvent($event)" />
+
+    <div>
+        <image-cropper
+            [imageChangedEvent]="imageChangedEvent"
+            [maintainAspectRatio]="true"
+            [aspectRatio]="4 / 3"
+            [resizeToWidth]="320"
+            format="png"
+            (imageCroppedFile)="imageCroppedFile($event)"
+            (imageCroppedBase64)="imageCroppedBase64($event)"
+            (imageLoaded)="imageLoaded()"
+            (loadImageFailed)="loadImageFailed()"
+            style="max-height: 33vh"
+            [style.display]="cropperReady ? null : 'none'"
+        ></image-cropper>
+    </div>
+    <img [src]="croppedImage" #fileInputImg/>
+
+</div>
+<button (click)="veremos()">VEREMOS</button>
+<button (click)="descripcion()">Descripcion</button>
+<button (click)="setImageCropped()">add</button>
+
+<input type="file" name="photo.jpg" ng2FileSelect accept="image/png,image/gif,image/jpeg"  [uploader]="uploader" />
+
+<button type="button" class="btn btn-success btn-s"
+        (click)="uploader.uploadAll()"
+        [disabled]="!uploader.getNotUploadedItems().length" >
+    Upload an Image
+</button>
+
+<div>
+    Queue progress:
+    <div class="progress" style="">
+        <div class="progress-bar" role="progressbar" [ngStyle]="{ 'width': uploader.progress + '%' }"></div>
     </div>
 </div>

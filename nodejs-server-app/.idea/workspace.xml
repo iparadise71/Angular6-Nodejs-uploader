@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2a4e03b-f551-4fa9-8767-fdd87df7e180" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../agular-6-uploader/src/app/file-uploader-service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agular-6-uploader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../agular-6-uploader/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agular-6-uploader/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../agular-6-uploader/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agular-6-uploader/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../agular-6-uploader/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agular-6-uploader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../agular-6-uploader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agular-6-uploader/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../agular-6-uploader/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../agular-6-uploader/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../agular-6-uploader/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../agular-6-uploader/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../agular-6-uploader/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,29 +64,45 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="1" />
-          <entry key="md" value="1" />
+          <entry key="jpg" value="13" />
+          <entry key="js" value="5" />
+          <entry key="json" value="2" />
+          <entry key="md" value="4" />
+          <entry key="png" value="6" />
+          <entry key="undefined" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="1" />
-          <entry key="Markdown" value="1" />
+          <entry key="Image" value="19" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Markdown" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2" />
+          <entry key="js" value="400" />
+          <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2" />
+          <entry key="JavaScript" value="400" />
+          <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -92,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-404">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="68" />
+            <state relative-caret-position="211">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -102,8 +122,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -112,6 +132,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>upload</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -119,9 +144,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -142,8 +167,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1360" />
-    <option name="height" value="708" />
+    <option name="x" value="-7" />
+    <option name="width" value="773" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -213,16 +239,25 @@
       <updated>1536633466958</updated>
       <workItem from="1536633468571" duration="2859000" />
       <workItem from="1536641379944" duration="995000" />
+      <workItem from="1536717168305" duration="5417000" />
+      <workItem from="1536961894126" duration="1093000" />
+      <workItem from="1537011831031" duration="10091000" />
+      <workItem from="1537233033769" duration="4330000" />
+      <workItem from="1537319509873" duration="2290000" />
+      <workItem from="1537411161674" duration="5010000" />
+      <workItem from="1537490216179" duration="5490000" />
+      <workItem from="1537732450122" duration="4225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3854000" />
+    <option name="totallyTimeSpent" value="41800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49866667" visible="true" weight="0.24553572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49866667" visible="true" weight="0.17708333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.50133336" side_tool="true" weight="0.24553572" />
       <window_info id="npm" order="3" sideWeight="0.50133336" side_tool="true" weight="0.24553572" />
@@ -237,7 +272,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3852459" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21803279" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -259,28 +294,71 @@
     <entry file="file://$PROJECT_DIR$/uploads/readme.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/file-1536642088061.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1536721844272.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1536956431757.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537031764962.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537032225169.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537039380752.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537039690318.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537039557368.undefined" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537040453697.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537063917593.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537141598068.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537142193534.jpg" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537142193613.png" />
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537153309866.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537152649128.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/file-1537154274051.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file-1537497366974.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/multer/lib/file-appender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="153">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="68" />
+        <state relative-caret-position="211">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/file-1536642088061.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="18" />
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
